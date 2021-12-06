@@ -8,5 +8,6 @@ int main ()
     printf("Resultado con mi funcion: %d\n", ft_strlcpy(string, string2, 8));
     printf("destino: %s\n", string);
     printf("size dest: %d\n", ft_strlen(string));
+    printf("hello git");
     return(0);
 }

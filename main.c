@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/06 22:33:08 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/06 22:36:15 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 int	main(void)
 {
 	char	string[6];
-	char	string2[7];
+	char	string2[6];
 
 	strncpy(string, "Leonel", 6);
 	strncpy(string2, "Lionel", 6);

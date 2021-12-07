@@ -30,6 +30,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 int     ft_atoi(const char *str);
 void	*ft_calloc(size_t count, size_t size);
-char	*ft_strndup(const char *s1, size_t n);
+char	*ft_strdup(const char *s1);
 
 #endif

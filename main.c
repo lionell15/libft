@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/07 11:17:29 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/07 22:45:34 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,21 +15,10 @@
 
 int main()
 {
-   int i, n;
-   int *a;
+   char string[] = "Leonel Espinoza";
+   char *sub;
 
-   printf("ingrese cantidad：");
-   scanf("%d",&n);
+   sub = ft_substr(string, 7, 15);
 
-   a = (int*)ft_calloc(n, sizeof(int));
-   printf("ingrese numero para la posicion%d ：\n",n);
-   for( i=0 ; i < n ; i++ ) 
-   {
-      scanf("%d",&a[i]);
-   }
-
-   printf("nuneros：");
-   for( i=0 ; i < n ; i++ ) {
-      printf("%d ",a[i]);
-   }
+   printf("res: %s\n", sub);
 }

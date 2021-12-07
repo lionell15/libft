@@ -6,7 +6,7 @@
 #    By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/06 21:39:49 by lionell15         #+#    #+#              #
-#    Updated: 2021/12/07 10:52:29 by lionell15        ###   ########.fr        #
+#    Updated: 2021/12/07 11:26:24 by lionell15        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,8 @@ SRCS	=	ft_atoi.c \
 		ft_strnstr.c \
 		ft_tolower.c \
 		ft_toupper.c \
-		ft_calloc.c
+		ft_calloc.c \
+		ft_strndup.c
 OBJS	= $(SRCS:.c=.o)
 CC	= gcc
 RM	= rm -f

@@ -6,21 +6,30 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/07 10:37:01 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/07 11:17:29 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include "libft.h"
-#include <string.h>
 
-int	main(void)
+int main()
 {
-	char	cadena[]="Leonel";
-	char	find[] = "e";
+   int i, n;
+   int *a;
 
-	printf("buscar: %s\n", find);
-	printf("en cadena: %s\n\n", cadena);
-	printf("Resultado: %s\n\n", ft_strnstr(cadena, find, 8));
-	return (0);
+   printf("ingrese cantidad：");
+   scanf("%d",&n);
+
+   a = (int*)ft_calloc(n, sizeof(int));
+   printf("ingrese numero para la posicion%d ：\n",n);
+   for( i=0 ; i < n ; i++ ) 
+   {
+      scanf("%d",&a[i]);
+   }
+
+   printf("nuneros：");
+   for( i=0 ; i < n ; i++ ) {
+      printf("%d ",a[i]);
+   }
 }

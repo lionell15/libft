@@ -29,5 +29,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 int     ft_atoi(const char *str);
+void	*ft_calloc(size_t count, size_t size);
 
 #endif

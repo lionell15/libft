@@ -15,10 +15,11 @@
 
 int main()
 {
-   char string[] = "Leonel Espinoza";
-   char *sub;
+   char prefix[] = "Lionell ";
+   char suffix[] = "Espinoza";
+   char *res;
 
-   sub = ft_substr(string, 7, 15);
-
-   printf("res: %s\n", sub);
+   res = ft_strjoin(prefix, suffix);
+   printf("resultado: %s\n", res);
+   free(res);
 }

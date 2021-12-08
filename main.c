@@ -15,11 +15,17 @@
 
 int main()
 {
-   char string[] = "XXXXXLionellXXXXX";
-   char rem[] = "X";
-   char *res;
+   char string[] = "l1,l2,l3,l4,l5";
+   char split = ',';
+   char **res;
+   int i;
 
-   res = ft_strtrim(string, rem);
-   printf("resultado: %s\n", res);
+   i =0 ;
+   res = ft_split(string, split);
+   while (res[i])
+   {
+      printf("resultado: %s\n", res[i]);
+      i++;
+   }
    free(res);
 }

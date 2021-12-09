@@ -6,7 +6,7 @@
 #    By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/06 21:39:49 by lionell15         #+#    #+#              #
-#    Updated: 2021/12/07 22:42:00 by lionell15        ###   ########.fr        #
+#    Updated: 2021/12/09 21:21:26 by lionell15        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,11 @@ SRCS	=	ft_atoi.c \
 		ft_substr.c \
 		ft_strjoin.c \
 		ft_strtrim.c \
-		ft_split.c
+		ft_split.c \
+		ft_itoa.c \
+		ft_strmapi.c \
+		ft_putchar_fd.c \
+		ft_putstr_fd.c
 OBJS	= $(SRCS:.c=.o)
 CC	= gcc
 RM	= rm -f

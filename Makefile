@@ -6,11 +6,11 @@
 #    By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/06 21:39:49 by lionell15         #+#    #+#              #
-#    Updated: 2021/12/10 10:23:49 by lionell15        ###   ########.fr        #
+#    Updated: 2021/12/10 11:11:43 by lionell15        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	=   libft.a
+NAME	=	libft.a
 SRCS	=	ft_atoi.c \
 		ft_bzero.c \
 		ft_isalnum.c \
@@ -45,12 +45,14 @@ SRCS	=	ft_atoi.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c
-OBJS	= $(SRCS:.c=.o)
-CC	= gcc
-RM	= rm -f
-LIBC	= ar -rcs
-FLAGS	= -Wall -Wextra -Werror -std=c99
-INCS	= .
+BONUS_S = 	ft_lstnew.c
+BONUS_O	= 	$(BONUS_S:.c=.o)
+OBJS	= 	$(SRCS:.c=.o)
+CC	= 	gcc
+RM	= 	rm -f
+LIBC	= 	ar -rcs
+FLAGS	= 	-Wall -Wextra -Werror -std=c99
+INCS	= 	.
 
 .c.o :
 	${CC} ${FLAGS} -c $< -o ${<:.c=.o} -I${INCS}
@@ -60,6 +62,8 @@ $(NAME): ${OBJS}
 
 all: $(NAME)
 
+bonus:	$(NAME) $(BONUS_O)
+	$(LIBC) $(NAME) $(BONUS_O)
 program:
 	${CC} main.c -lft -L. -o libft
     
@@ -67,8 +71,8 @@ fclean: clean
 	$(RM) $(NAME)
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_O)
     
 re: fclean all
-
-.PHONY: all clean fclean program re .c.o
+rebonus: fclean bonus
+.PHONY: all clean fclean program re .c.o bonus rebonus

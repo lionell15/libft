@@ -6,29 +6,19 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/10 10:25:58 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/10 11:45:54 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include "libft.h"
 
-int main(void)
+int main(void) 
 {
-	int num;
+    t_list *head = ft_lstnew( "Hello");
+    head->next = ft_lstnew("World!");
 
-	num =-42;
-	/* Creación y apertura del fichero */
-	int fichero = open ("mi_fichero", O_CREAT|O_WRONLY);
-	/* Comprobación de errores */
-   	if (fichero==-1)
-   	{
-        	perror("Error al abrir fichero:");
-       		exit(1);
-   	}
+    printf( "%s %s\n", ( char * )head->content, ( char * )head->next->content );
 
-   	/* Escritura de la cadena */
-	ft_putnbr_fd(num, fichero);
-   	close(fichero);
-   return 0;
+    return 0;
 }

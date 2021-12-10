@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/09 21:23:23 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/10 10:25:58 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,9 @@
 
 int main(void)
 {
-	/* char que se va a escribir */
-	char c[] = "lionell";
+	int num;
+
+	num =-42;
 	/* Creación y apertura del fichero */
 	int fichero = open ("mi_fichero", O_CREAT|O_WRONLY);
 	/* Comprobación de errores */
@@ -27,7 +28,7 @@ int main(void)
    	}
 
    	/* Escritura de la cadena */
-	ft_putstr_fd(c, fichero);
+	ft_putnbr_fd(num, fichero);
    	close(fichero);
    return 0;
 }

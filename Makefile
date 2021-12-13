@@ -6,7 +6,7 @@
 #    By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/06 21:39:49 by lionell15         #+#    #+#              #
-#    Updated: 2021/12/12 12:02:30 by lionell15        ###   ########.fr        #
+#    Updated: 2021/12/13 10:27:28 by lionell15        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,8 @@ SRCS	=	ft_atoi.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c
 BONUS_S = 	ft_lstnew.c \
-		ft_lstadd_front.c
+		ft_lstadd_front.c \
+		ft_lstsize.c
 BONUS_O	= 	$(BONUS_S:.c=.o)
 OBJS	= 	$(SRCS:.c=.o)
 CC	= 	gcc

@@ -17,10 +17,11 @@ typedef t_list *nodo;
 
 static void	f_del(void *ptr)
 {
+	nodo ptrnodo = ptr;
 	size_t size =0;
-	while (!(nodo *)ptr)
+	while (!ptrnodo)
 		size++;
-	memset(ptr->content, 'a', size - 1);
+	ft_memset(ptrnodo->content, 'a', size - 1);
 }
 int main(void) 
 {
@@ -38,7 +39,8 @@ int main(void)
 
 	nodo last = ft_lstlast(head);
 	ft_lstdelone(last, f_del);
-	//printf("el ultimo: %s\n", (char *)last->content);
+	nodo alast = ft_lstlast(head);
+	printf("el ultimo: %s\n", (char *)alast->content);
 	free(head);
 	return 0;
 }

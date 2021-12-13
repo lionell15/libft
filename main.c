@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/13 11:09:49 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/13 12:21:13 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,13 @@
 
 typedef t_list *nodo;
 
+static void	f_del(void *ptr)
+{
+	size_t size =0;
+	while (!(nodo *)ptr)
+		size++;
+	memset(ptr->content, 'a', size - 1);
+}
 int main(void) 
 {
 	nodo head = ft_lstnew( "1ro");
@@ -28,8 +35,10 @@ int main(void)
 		iter = iter->next;
 	}
 	printf("\n");
+
 	nodo last = ft_lstlast(head);
-	printf("el ultimo: %s\n", (char *)last->content);
+	ft_lstdelone(last, f_del);
+	//printf("el ultimo: %s\n", (char *)last->content);
 	free(head);
 	return 0;
 }

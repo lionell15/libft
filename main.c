@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/13 10:54:45 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/13 11:09:49 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int main(void)
 {
 	nodo head = ft_lstnew( "1ro");
 	ft_lstadd_front(&head, ft_lstnew("head"));
+	ft_lstadd_back(&head, ft_lstnew("back")); 
 	printf("\ntamaño de la lista: %d\n", ft_lstsize(head));
 	nodo iter = head;
 	while (iter != NULL)

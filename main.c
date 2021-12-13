@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 21:41:23 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/13 10:38:34 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/13 10:54:45 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ int main(void)
 		iter = iter->next;
 	}
 	printf("\n");
+	nodo last = ft_lstlast(head);
+	printf("el ultimo: %s\n", (char *)last->content);
 	free(head);
 	return 0;
 }

@@ -6,7 +6,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		i;
 	int		j;
 
-    new_str = (char *)malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
+	new_str = (char *)malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
 	if (!s1 || !s2 || !new_str)
 		return (0);
 	i = 0;

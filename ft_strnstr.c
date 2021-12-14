@@ -2,8 +2,8 @@
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	size_t index;
-	size_t jndex;
+	size_t	index;
+	size_t	jndex;
 
 	if (*needle == '\0')
 		return ((char *)haystack);

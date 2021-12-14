@@ -6,7 +6,7 @@
 /*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 16:57:01 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/14 16:57:41 by lionell15        ###   ########.fr       */
+/*   Updated: 2021/12/14 21:17:07 by lionell15        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!lst || !f)
-		return (0);
+		return ;
 	while (lst)
 	{
 		f(lst->content);

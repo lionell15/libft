@@ -53,8 +53,8 @@
 | --------------- | ------------- |
 | Prototipo: | void *ft_memchr(const void *s, int c, size_t n) |
 | Ficheros a entregar: | ft_memchr.c |
-| Parametros : | #1 |
-| Valor de retorno: | |
+| Parametros : | #1 puntero al bloque de memoria para realizar una búsqueda. <br /> #2 Caracter que se va a buscar. <br /> #3 Número de caracteres que se comprobarán. |
+| Valor de retorno: | Retorna un puntero al carácter localizado, o un puntero nulo si el carácter no apareció en el objeto.  |
 | Funciones externas autorizadas: | Ninguna |
-| Descripción: | |
+| Descripción: | Localiza la primera aparición del carácter c (convertido a unsigned char) en los primeros n caracteres (cada uno interpretado como un unsigned char) del objeto apuntado por s. |
 

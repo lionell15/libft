@@ -13,7 +13,7 @@
 | Descripción: | Copia el caracter c (un char sin signo) a los primeros n caracteres de (b). |
 
 
-| Nombre de l función: | bzero |
+| Nombre de la función: | bzero |
 | ------------- | ------------- |
 | Prototipo: |  void ft_bzero(void *s, size_t n) |
 | Ficheros a entregar: | ft_bzero.c |
@@ -22,7 +22,7 @@
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Pone a cero los n primeros bytes de la cadena de bytes s.  |
 
-| Nombre de l función: | memcpy |
+| Nombre de la función: | memcpy |
 | ------------- | ------------- |
 | Prototipo: |  void *ft_memcpy(void *dst, const void *src, size_t n) |
 | Ficheros a entregar: | ft_memcpy.c |
@@ -31,7 +31,7 @@
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Copia n caracteres del area de la memoria de src en el area de la memoria de dst. |
 
-| Nombre de l función: | memccpy |
+| Nombre de la función: | memccpy |
 | ------------- | ------------- |
 | Prototipo: |  void *ft_memccpy(void *dst, const void *src, int c, size_t n) |
 | Ficheros a entregar: | ft_memccpy.c |
@@ -40,7 +40,7 @@
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Copia  como mucho n bytes desde el área de memoria src al área de memoria dst, parando cuando se encuentra el carácter c. |
 
-| Nombre de l función: | memmove |
+| Nombre de la función: | memmove |
 | ------------- | ------------- |
 | Prototipo: |  void *ft_memmove(void *dst, const void *src, size_t len) |
 | Ficheros a entregar: | ft_memmove.c |
@@ -48,3 +48,13 @@
 | Valor de retorno: | Devuelve un puntero a la cadena dst  |
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Copia los primeros n caracteres del objeto apuntado por src al objeto apuntado por dst. Sin embargo, se asegura de que no estén superpuestos. |
+
+| Nombre de la función: | memchr |
+| --------------- | ------------- |
+| Prototipo: | void *ft_memchr(const void *s, int c, size_t n) |
+| Ficheros a entregar: | ft_memchr.c |
+| Parametros : | #1 |
+| Valor de retorno: | |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: | |
+

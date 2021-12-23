@@ -58,11 +58,21 @@
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Localiza la primera aparición del carácter c (convertido a unsigned char) en los primeros n caracteres (cada uno interpretado como un unsigned char) del objeto apuntado por s. |
 
-| Nombre de la función | memcmp |
-| -------------------- | ------ |
+| Nombre de la función: | memcmp |
+| --------------------- | ------ |
 | Prototipo: | int ft_memcmp(const void *s1, const void *s2, size_t n) |
 | Ficheros a entregar: | ft_memcmp.c |
 | Parametros: | #1 puntero al primer bloque de memoria. <br /> #2 puntero al segundo bloque de memoria. <br /> #3 Número de caracteres que se va a comparar. |
 | Valor de retorno: | El valor devuelto indica la relación entre los búferes. <br /> **<0** s1 es menor a s2 <br /> **0** s1 es idéntica a s2 <br /> **>0** s1 es mayor a s2 |
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Compara los caracteres de dos búferes de memoria. |
+
+| Nombre de la función: | strlen |
+| --------------------- | ------ |
+| Prototipo: | size_t ft_strlen(const char *s) |
+| Ficheros a entregar: | ft_strlen.c  |
+| Parametros: | #1 Cadena terminada en un valor nulo. |
+| Valor de retorno: | Devuelve el nuúmero de caracteres de s ecepto el valor nulo. |
+| Funciones externas autorizadas: | Ningunaa  |
+| Descripción: | Obtiene la longitud de una cadena |
+

@@ -73,6 +73,6 @@
 | Ficheros a entregar: | ft_strlen.c  |
 | Parametros: | #1 Cadena terminada en un valor nulo. |
 | Valor de retorno: | Devuelve el nuúmero de caracteres de s ecepto el valor nulo. |
-| Funciones externas autorizadas: | Ningunaa  |
+| Funciones externas autorizadas: |  Ninguna |
 | Descripción: | Obtiene la longitud de una cadena |
 

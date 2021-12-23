@@ -76,3 +76,11 @@
 | Funciones externas autorizadas: |  Ninguna |
 | Descripción: | Obtiene la longitud de una cadena |
 
+| Nombre de la función: | strlcpy |
+| -------------------- | -------- |
+| Prototipo: | size_t ft_strlcpy(char *dst, const char *src, size_t dstsize) |
+| Ficheros a entregar: | ft_strlcpy.c |
+| Parametros: | #1 puntero al bloque de memoria de destino. <br /> #2 puntero al bloque de memoria de origen. <br /> #3  Número de caracteres que se van a copiar. |
+| Valor de retorno: | Devuelve la longitutd total de la cadena que intenta crear. |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: | Copia dstsize caracteres de la cadena  src en la cadena dst. |

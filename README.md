@@ -86,96 +86,96 @@
 
 | Nombre de la función: | strchr |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _char *ft_strchr(const char *s, int c);_|
+| Ficheros a entregar: | ft_strchr.c|
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | strrchr |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _char *ft_strrchr(const char *s, int c);_ |
+| Ficheros a entregar: | ft_strrchr.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | strnstr |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _char *ft_strnstr(const char *haystack, const char *needle, size_t len);_ |
+| Ficheros a entregar: | ft_strnstr.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | strncmp |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_strncmp(const char *s1, const char *s2, size_t n);_|
+| Ficheros a entregar: | ft_strncmp.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | atoi |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_atoi(const char *str);_|
+| Ficheros a entregar: | ft_atoi.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | isalpha |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_isalpha(int c);_ |
+| Ficheros a entregar: | ft_isalpha.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | isdigit |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_isdigit(int c);_|
+| Ficheros a entregar: | ft_isdigit.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | isalnum |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_isalnum(int c);_|
+| Ficheros a entregar: | ft_isalnum.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | isascii |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_isascii(int c);_|
+| Ficheros a entregar: | ft_isascii.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | isprint |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_isprint(int c);_|
+| Ficheros a entregar: | ft_isprint.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | toupper |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_toupper(int c);_|
+| Ficheros a entregar: | ft_toupper.c |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |
 
 | Nombre de la función: | tolower |
 | -------------------- | -------- |
-| Prototipo: | |
-| Ficheros a entregar: | |
+| Prototipo: | _int	ft_tolower(int c);_|
+| Ficheros a entregar: | ft_tolower.c|
 | Parametros: |  |
 | Valor de retorno: |  |
 | Descripción: |  |

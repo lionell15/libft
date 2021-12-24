@@ -93,3 +93,12 @@
 | Valor de retorno: |  |
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: |  |
+
+| Nombre de la función: |  |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |

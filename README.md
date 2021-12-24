@@ -87,14 +87,113 @@
 
 | Nombre de la función: | strlcat |
 | -------------------- | -------- |
-| Prototipo: | |
+| Prototipo: | size_t ft_strlcat(char *dst, const char *src, size_t dstsize); |
 | Ficheros a entregar: | ft_strlcat.c |
+| Parametros: | #1 puntero al bloque de memoria de destino. <br /> #2 puntero al bloque de memoria de origen. <br /> #3  Número de caracteres que se van a concatenar. |
+| Valor de retorno: |  Devuelve el número de caracteres que intentó crear, la longitud inicial de dst + la longitud de src.|
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: | Concatena la cadena de caracteres src en la cadena dst limitada por dstsize. |
+
+| Nombre de la función: | strchr |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
 | Parametros: |  |
 | Valor de retorno: |  |
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: |  |
 
-| Nombre de la función: |  |
+| Nombre de la función: | strrchr |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | strnstr |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | strncmp |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | atoi |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | isalpha |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | isdigit |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | isalnum |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | isascii |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | isprint |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | toupper |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |
+
+| Nombre de la función: | tolower |
 | -------------------- | -------- |
 | Prototipo: | |
 | Ficheros a entregar: | |

@@ -84,3 +84,12 @@
 | Valor de retorno: | Devuelve la longitutd total de la cadena que intenta crear. |
 | Funciones externas autorizadas: | Ninguna |
 | Descripción: | Copia dstsize caracteres de la cadena  src en la cadena dst. |
+
+| Nombre de la función: | strlcat |
+| -------------------- | -------- |
+| Prototipo: | |
+| Ficheros a entregar: | ft_strlcat.c |
+| Parametros: |  |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | Ninguna |
+| Descripción: |  |

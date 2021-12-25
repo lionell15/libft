@@ -89,16 +89,16 @@
 | Prototipo: | _char *ft_strchr(const char *s, int c);_|
 | Ficheros a entregar: | ft_strchr.c|
 | Parametros: | 1. Puntero a una cadena de caracteres <br /> 2. Caracter que se va a buscar.   |
-| Valor de retorno: | Devuelve la posición en la cadena (s) la primera ocurrencia del carácter c.Si no se encuentra devuelve NULL. |
+| Valor de retorno: | Devuelve la posición en la cadena (s) la primera ocurrencia del carácter c.Si no se encuentra devuelve un punyero nulo. |
 | Descripción: |  Buscar la primera ocurrencia de c en la cadena (s) y devuelve su posición.|
 
 | Nombre de la función: | strrchr |
 | -------------------- | -------- |
 | Prototipo: | _char *ft_strrchr(const char *s, int c);_ |
 | Ficheros a entregar: | ft_strrchr.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Puntero a una cadena de caracteres <br /> 2. Carqcter que se va a buscar. |
+| Valor de retorno: | Devuelve la posición del último carácter de (s) aparece c. Si no se encuentra el valor, la función devuelve un puntero nulo. |
+| Descripción: | Busca lq ultina ocurrencia de c en la cadena (s) y devuelve su posición. |
 
 | Nombre de la función: | strnstr |
 | -------------------- | -------- |

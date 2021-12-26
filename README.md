@@ -179,3 +179,20 @@
 | Parametros: | 1. Caracter que se desea pasar a minuscula  |
 | Valor de retorno: |  Devuelve el caracter c en minuscula. |
 | Descripción: | Convierte el caracter c en un caracter minuscula. |
+
+| Nombre de la función: | calloc |
+| -------------------- | -------- |
+| Prototipo: | _;_|
+| Ficheros a entregar: | ft_calloc.c|
+| Parametros: | 1. |
+| Valor de retorno: |  |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |  |
+
+| Nombre de la función: | strdup |
+| -------------------- | -------- |
+| Prototipo: | _;_|
+| Ficheros a entregar: | ft_strdup.c|
+| Parametros: | 1.  |
+| Valor de retorno: |  |
+| Descripción: | |

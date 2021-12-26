@@ -112,9 +112,11 @@
 | -------------------- | -------- |
 | Prototipo: | _int	ft_strncmp(const char *s1, const char *s2, size_t n);_|
 | Ficheros a entregar: | ft_strncmp.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Puntero a una cadena de caracteres <br/> 2. Puntero a otra cadena de caracteres. <br/> 3. Numero de caracteres que se va a comparar |
+| Valor de retorno: | Devuelve 0 si las dos cadenas son iguales.
+Devuelve menor que cero si s1 es menor que s2.
+Devuelve mayor que cero si s1 es mayor que s2. |
+| Descripción: | Compara la cadena s1 con la cadena s2 hasta el n carcater. |
 
 | Nombre de la función: | atoi |
 | -------------------- | -------- |

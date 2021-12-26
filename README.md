@@ -202,4 +202,84 @@
 
 ### Funciones adicionales
 
+| Nombre de la función: | ft_substr |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_substr.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
 
+| Nombre de la función: | ft_srtjoin |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_strjoin.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_strtrim |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_strtrim.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_split |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_split.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_itoa |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_itoa.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_strmapi |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_strmapi.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_putchar_fd |
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_putchar_fd.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_putstr_fd |                             | --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_putstr_fd.c |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_putendl_fd |                             | --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_putendl_fd |
+| Parametros: |   |
+| Valor de retorno: |   |
+| Funciones externas autorizadas: | malloc |
+| Descripción: |   |
+
+| Nombre de la función: | ft_putnbr_fd |                              | --------------------- | --------- |
+| Prototipo: |  |                                                     | Ficheros a entregar: | ft_putnbr_fd |                               | Parametros: |   |                                                   | Valor de retorno: |   |                                             | Funciones externas autorizadas: | malloc |                          | Descripción: |   |

@@ -90,7 +90,7 @@
 | Ficheros a entregar: | ft_strchr.c|
 | Parametros: | 1. Puntero a una cadena de caracteres <br /> 2. Caracter que se va a buscar.   |
 | Valor de retorno: | Devuelve la posición en la cadena (s) la primera ocurrencia del carácter c.Si no se encuentra devuelve un punyero nulo. |
-| Descripción: |  Buscar la primera ocurrencia de c en la cadena (s) y devuelve su posición.|
+| Descripción: |  Buscar la primera ocurrencia de (c) en la cadena (s) y devuelve su posición.|
 
 | Nombre de la función: | strrchr |
 | -------------------- | -------- |
@@ -104,9 +104,9 @@
 | -------------------- | -------- |
 | Prototipo: | _char *ft_strnstr(const char *haystack, const char *needle, size_t len);_ |
 | Ficheros a entregar: | ft_strnstr.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Puntero a una cadena de caracteres donde buscar. <br /> 2. Puntero a una subcadena de caracteres a buscar. |
+| Valor de retorno: |  Devuelve -1 si no se encontro la subcadwna dentro de la cadena o n si se encotro en la posicion n de la cadena.|
+| Descripción: |  Busca la secuencia de carácteres contenida en la subcadena en una cadena de texto. |
 
 | Nombre de la función: | strncmp |
 | -------------------- | -------- |

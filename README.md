@@ -120,17 +120,17 @@
 | -------------------- | -------- |
 | Prototipo: | _int	ft_atoi(const char *str);_|
 | Ficheros a entregar: | ft_atoi.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Puntero a la cadena que se desea convertir |
+| Valor de retorno: | Retorna el valor numérico de la cadena o 0 si no se puede convertir. |
+| Descripción: | Convierte una cadena a su valor numérico (entero) |
 
 | Nombre de la función: | isalpha |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_isalpha(int c);_ |
 | Ficheros a entregar: | ft_isalpha.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. caracter a comprobar  |
+| Valor de retorno: | Devuelve 1 si c es un caracter alfabetico de a a z o de A a Z |
+| Descripción: |  Comprueba si el caracter c es un caracter alfabético |
 
 | Nombre de la función: | isdigit |
 | -------------------- | -------- |

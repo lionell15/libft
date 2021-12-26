@@ -129,53 +129,53 @@
 | Prototipo: | _int	ft_isalpha(int c);_ |
 | Ficheros a entregar: | ft_isalpha.c |
 | Parametros: | 1. caracter a comprobar  |
-| Valor de retorno: | Devuelve 1 si c es un caracter alfabetico de a a z o de A a Z |
+| Valor de retorno: | Devuelve 1 si c es un caracter alfabetico de a a z o de A a Z, decuelve 0 si no lo es.||
 | Descripción: |  Comprueba si el caracter c es un caracter alfabético |
 
 | Nombre de la función: | isdigit |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_isdigit(int c);_|
 | Ficheros a entregar: | ft_isdigit.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Caracter a comprobar. |
+| Valor de retorno: |  Devuelve 1 si el caracter c es un número de 0 a 9, decuelve 0 si no lo es.|
+| Descripción: | Comprueba si el caracter c es un caracter numérico de (0 - 9) |
 
 | Nombre de la función: | isalnum |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_isalnum(int c);_|
 | Ficheros a entregar: | ft_isalnum.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Caracter a comprobar. |
+| Valor de retorno: |  Devuelve 1 si el caracter c es un caracter alfanumérico, devuelve 0 si no lo es. |
+| Descripción: |  Comprueba si el caracter c es un caracter alfanumérico (a - z) o (0 - 9) |
 
 | Nombre de la función: | isascii |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_isascii(int c);_|
 | Ficheros a entregar: | ft_isascii.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Caracter a comprobar.  |
+| Valor de retorno: | Devuelve 1 si el caracter c es un caracter de la tabla ascii, devuelve 0 si no lo es. |
+| Descripción: |  Comprueba si el carqcter c es un caracter existente en la tabla ascii. |
 
 | Nombre de la función: | isprint |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_isprint(int c);_|
-| Ficheros a entregar: | ft_isprint.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Ficheros a entregar: | ft_isprint.c ||
+| Parametros: | 1. Caracter a comprobar  |
+| Valor de retorno: | Devuelve 1 si el caracter c es un caracter imprimible, devuelve 0 si no lo es. |
+| Descripción: | Comprueba si el caracter c es un caracter imprimible.  |
 
 | Nombre de la función: | toupper |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_toupper(int c);_|
 | Ficheros a entregar: | ft_toupper.c |
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Caracter que se desea pasar a mayuscula |
+| Valor de retorno: | Devuelve el caracter c en mayuscula |
+| Descripción: | Convierte el caracter c en un caracter mayuscula. |
 
 | Nombre de la función: | tolower |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_tolower(int c);_|
 | Ficheros a entregar: | ft_tolower.c|
-| Parametros: |  |
-| Valor de retorno: |  |
-| Descripción: |  |
+| Parametros: | 1. Caracter que se desea pasar a minuscula  |
+| Valor de retorno: |  Devuelve el caracter c en minuscula. |
+| Descripción: | Convierte el caracter c en un caracter minuscula. |

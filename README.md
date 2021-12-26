@@ -184,16 +184,16 @@
 | -------------------- | -------- |
 | Prototipo: | _void *ft_calloc(size_t count, size_t size);_|
 | Ficheros a entregar: | ft_calloc.c|
-| Parametros: | 1. |
-| Valor de retorno: |  |
+| Parametros: | 1. Numero de elementos. <br /> 2. Longitud en bytes de cada elemento. |
+| Valor de retorno: |  Devuelve un puntero al espacio asignado. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |  |
+| Descripción: | Asigna una matriz en la memoria con elementos que se inicializan en 0. |
 
 | Nombre de la función: | strdup |
 | -------------------- | -------- |
 | Prototipo: | _char *ft_strdup(const char *s1);_|
 | Ficheros a entregar: | ft_strdup.c|
-| Parametros: | 1.  |
-| Valor de retorno: |  |
+| Parametros: | 1.  Punyero a una cadena de caracteres. |
+| Valor de retorno: | Devuelve un puntero a la cadena duplicada, o NULL si no había bastante memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: | |
+| Descripción: | La  función  strdup()  devuelve  un  puntero  a  una  nueva cadena de caracteres que es un duplicado de la cadena apuntada por s.   La  memoria  para  la  nueva  cadena  se  obtiene automáticamente con malloc(3), y puede (y debe) liberarse con free(3). |

@@ -105,17 +105,15 @@
 | Prototipo: | _char *ft_strnstr(const char *haystack, const char *needle, size_t len);_ |
 | Ficheros a entregar: | ft_strnstr.c |
 | Parametros: | 1. Puntero a una cadena de caracteres donde buscar. <br /> 2. Puntero a una subcadena de caracteres a buscar. |
-| Valor de retorno: |  Devuelve -1 si no se encontro la subcadwna dentro de la cadena o n si se encotro en la posicion n de la cadena.|
+| Valor de retorno: |  Devuelve -1 si no se encontro la subcadena dentro de la cadena o n si se encotro en la posicion n de la cadena.|
 | Descripción: |  Busca la secuencia de carácteres contenida en la subcadena en una cadena de texto. |
 
 | Nombre de la función: | strncmp |
 | -------------------- | -------- |
 | Prototipo: | _int	ft_strncmp(const char *s1, const char *s2, size_t n);_|
 | Ficheros a entregar: | ft_strncmp.c |
-| Parametros: | 1. Puntero a una cadena de caracteres <br/> 2. Puntero a otra cadena de caracteres. <br/> 3. Numero de caracteres que se va a comparar |
-| Valor de retorno: | Devuelve 0 si las dos cadenas son iguales.
-Devuelve menor que cero si s1 es menor que s2.
-Devuelve mayor que cero si s1 es mayor que s2. |
+| Parametros: | 1. Puntero a una cadena de caracteres <br/> 2. Puntero a otra cadena de caracteres. <br/> 3. Numero de caracteres que se va a comparar |i
+| Valor de retorno: | Devuelve 0 si las dos cadenas son iguales. <br /> Devuelve menor que cero si s1 es menor que s2.<br /> Devuelve mayor que cero si s1 es mayor que s2. |
 | Descripción: | Compara la cadena s1 con la cadena s2 hasta el n carcater. |
 
 | Nombre de la función: | atoi |

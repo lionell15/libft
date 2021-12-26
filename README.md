@@ -195,4 +195,5 @@
 | Ficheros a entregar: | ft_strdup.c|
 | Parametros: | 1.  |
 | Valor de retorno: |  |
+| Funciones externas autorizadas: | malloc |
 | Descripción: | |

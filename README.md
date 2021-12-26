@@ -265,7 +265,8 @@
 | Funciones externas autorizadas: | malloc |
 | Descripción: |   |
 
-| Nombre de la función: | ft_putstr_fd |                             | --------------------- | --------- |
+| Nombre de la función: | ft_putstr_fd |
+| --------------------- | --------- |
 | Prototipo: |  |
 | Ficheros a entregar: | ft_putstr_fd.c |
 | Parametros: |   |
@@ -273,7 +274,8 @@
 | Funciones externas autorizadas: | malloc |
 | Descripción: |   |
 
-| Nombre de la función: | ft_putendl_fd |                             | --------------------- | --------- |
+| Nombre de la función: | ft_putendl_fd |
+| --------------------- | --------- |
 | Prototipo: |  |
 | Ficheros a entregar: | ft_putendl_fd |
 | Parametros: |   |
@@ -281,5 +283,11 @@
 | Funciones externas autorizadas: | malloc |
 | Descripción: |   |
 
-| Nombre de la función: | ft_putnbr_fd |                              | --------------------- | --------- |
-| Prototipo: |  |                                                     | Ficheros a entregar: | ft_putnbr_fd |                               | Parametros: |   |                                                   | Valor de retorno: |   |                                             | Funciones externas autorizadas: | malloc |                          | Descripción: |   |
+| Nombre de la función: | ft_putnbr_fd |                              
+| --------------------- | --------- |
+| Prototipo: |  |
+| Ficheros a entregar: | ft_putnbr_fd |                               
+| Parametros: |   |                                                   
+| Valor de retorno: |   |                                             
+| Funciones externas autorizadas: | malloc |                          
+| Descripción: |   |

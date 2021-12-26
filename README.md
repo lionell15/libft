@@ -182,7 +182,7 @@
 
 | Nombre de la función: | calloc |
 | -------------------- | -------- |
-| Prototipo: | _;_|
+| Prototipo: | _void *ft_calloc(size_t count, size_t size);_|
 | Ficheros a entregar: | ft_calloc.c|
 | Parametros: | 1. |
 | Valor de retorno: |  |
@@ -191,7 +191,7 @@
 
 | Nombre de la función: | strdup |
 | -------------------- | -------- |
-| Prototipo: | _;_|
+| Prototipo: | _char *ft_strdup(const char *s1);_|
 | Ficheros a entregar: | ft_strdup.c|
 | Parametros: | 1.  |
 | Valor de retorno: |  |

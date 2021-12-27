@@ -204,7 +204,7 @@
 
 | Nombre de la función: | ft_substr |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _char *ft_substr(char const *s, unsigned int start, size_t len);_ |
 | Ficheros a entregar: | ft_substr.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -213,7 +213,7 @@
 
 | Nombre de la función: | ft_srtjoin |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: |  _char *ft_strjoin(char const *s1, char const *s2);_|
 | Ficheros a entregar: | ft_strjoin.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -222,7 +222,7 @@
 
 | Nombre de la función: | ft_strtrim |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _char ft_strtrim(char const *s1, char const *set);_|
 | Ficheros a entregar: | ft_strtrim.c |
 | Parametros: |   |
 | Valor de retorno: |   |

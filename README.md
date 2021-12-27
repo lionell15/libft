@@ -231,7 +231,7 @@
 
 | Nombre de la función: | ft_split |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: |  _char **ft_split(char const *s, char c);_ |
 | Ficheros a entregar: | ft_split.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -240,7 +240,7 @@
 
 | Nombre de la función: | ft_itoa |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _char *ft_itoa(int n);_ |
 | Ficheros a entregar: | ft_itoa.c |
 | Parametros: |   |
 | Valor de retorno: |   |

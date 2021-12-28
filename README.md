@@ -214,87 +214,101 @@
 | --------------------- | --------- |
 | Prototipo: | _char *ft_substr(char const *s, unsigned int start, size_t len);_ |
 | Ficheros a entregar: | ft_substr.c |
-| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Posición donde empieza el substring. <br /> 3. Longitud del substring. |
-| Valor de retorno: | Devuelve un puntero a una substring creada a partir de la posición start con una longitud len.   |
+| Parametros: | 1. La cadena de la que se extrae la nueva cadena <br /> 2. El índice del principio de la nueva cadena <br /> 3. El tamaño máximo de la nueva cadena. |
+| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la
+reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |  Devuelve una subcadena especificada de una cadena. |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve la cadena de caracteres que proviene de la cadena pasada como argumento. Esta nueva cadena comienza en el índice ’start’ y tiene como tamaño máximo ’len’ |
 
 | Nombre de la función: | ft_srtjoin |
 | --------------------- | --------- |
 | Prototipo: |  _char *ft_strjoin(char const *s1, char const *s2);_|
 | Ficheros a entregar: | ft_strjoin.c |
-| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Caracter que se usará para separar la lista. |
-| Valor de retorno: |  devuelve una cadena con asignación dinámica memoria. |
+| Parametros: | 1. La cadena de caracteres prefijo. <br /> 2. La cadena de caracteres sufijo. |
+| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la
+reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |  La función strjoin () combina todas las cadenas en el lista de argumentos, y pone el resultado en la lista devuelta cadena con memoria asignada dinámicamente. El retorno La cadena está separada por el delimitador especificado por el primer separador de argumento. La memoria asignada dinámicamente necesita ser liberado por el usuario.
- |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve la nueva cadena de caracteres que resulta de la concatenación de ’s1’ y ’s2’. |
 
 | Nombre de la función: | ft_strtrim |
 | --------------------- | --------- |
 | Prototipo: | _char ft_strtrim(char const *s1, char const *set);_|
 | Ficheros a entregar: | ft_strtrim.c |
-| Parametros: | 1. Puntero a una cadena de caracteres.<br /> 2. Caracter que será reemplazado.  |
-| Valor de retorno: | Puntero a la cadena s1 modificada. |
+| Parametros: | 1. La cadena de caracteres que hay que depurar. <br /> 2. El set de referencia de caracteres que hay que retirar. |
+| Valor de retorno: |  La cadena de caracteres depurada. NULL si falla la reserva de memoria.|
 | Funciones externas autorizadas: | malloc |
-| Descripción: | Elimina todos caracteres (set) del principio y el final de una cadena. |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve la cadena de caracteres que es una copia de ’s1’, sin los caracteres indicados en el ’set’ al principio y al final de la cadena de caracteres. |
 
 | Nombre de la función: | ft_split |
 | --------------------- | --------- |
 | Prototipo: |  _char **ft_split(char const *s, char c);_ |
 | Ficheros a entregar: | ft_split.c |
-| Parametros: |  1. puntero a una cadena de caracteres. <br /> 2. Caracter por el cual se van a separar las palabras en (s)  |
-| Valor de retorno: |  Devuelve un puntero a la lista de palabras en la cadena de entrada. |
+| Parametros: |  1. La cadena de caracteres que hay que trocear. <br /> 2. El carácter delimitador. |
+| Valor de retorno: | La tabla con las nuevas cadenas de caracteres que resulten del troceado. NULL si falla la reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: | Separa o divide una cadena de caracteres (s) por el caracter (c) y retorna una lista de estas. |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve una tabla de cadena de caracteres obtenida separando ’s’ con el carácter ’c’, que se utiliza como delimitador. La tabla debe terminar con NULL. |
 
 | Nombre de la función: | ft_itoa |
 | --------------------- | --------- |
 | Prototipo: | _char *ft_itoa(int n);_ |
 | Ficheros a entregar: | ft_itoa.c |
-| Parametros: | 1. Puntero a la cadena que se desea convertir.  |
-| Valor de retorno: |  devuelve un numero entero convertido en cadena de caracteres si ha sido posible la conversión sino devuelve nulo. |
+| Parametros: | 1. El integer que hay que convertir. |
+| Valor de retorno: | La cadena de caracteres que representa al integer. NULL si falla la reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |  Convierte un numero entero a una cadena de caracteres. |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve la cadena de caracteres que representa el integer pasado como argumento. Se deben gestionar los números negativos. |
 
 | Nombre de la función: | ft_strmapi |
 | --------------------- | --------- |
 | Prototipo: | _char *ft_strmapi(char const *s, char (*f)(unsigned int, char);_ |
 | Ficheros a entregar: | ft_strmapi.c |
-| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Función que se va aplicar a cadabuno de los valores en la cadena (s).  |
-| Valor de retorno: |  Devuelve un puntero a una cadena con los valores pasados por la funcion (f). |
+| Parametros: | 1. La cadena de caracteres sobre la que hay iterar. <br /> 2. La función que hay que aplicar a cada carácter. |
+| Valor de retorno: | La cadena de caracteres que resulte de las aplicaciones sucesivas de ’f’. Devuelve NULL si falla la asignación. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |  Crea una nueva cadena a partir de la modificación de la cadena con la función especificada. |
+| Descripción: | Aplica la función ’f’ a cada carácter de la de cadena de caracteres ’s’ para crear una nueva cadena de caracteres (con malloc (3)) que resulte de las aplicaciones sucesivas de ’f’. |
 
 | Nombre de la función: | ft_putchar_fd |
 | --------------------- | --------- |
 | Prototipo: | _void ft_putchar_fd(char c, int fd);_ |
 | Ficheros a entregar: | ft_putchar_fd.c |
-| Parametros: | 1. Caracter a escribir. <br /> 2. archivo o formato de salida. |
-| Valor de retorno: | devuelve el carácter escrito como una conversión de unsigned char a un int o EOF en caso de error.  |
-| Descripción: |  Escribe un caracter dentro de un archivo. |
+| Parametros: | 1. El carácter que hay que escribir. <br /> 2. El descriptor de fichero sobre el que hay que escribir. |
+| Valor de retorno: | None |
+| Funciones externas autorizadas: | write |
+| Descripción: |  Escribe el carácter ’c’ sobre el descriptor de
+fichero proporcionado. |
 
 | Nombre de la función: | ft_putstr_fd |
 | --------------------- | --------- |
 | Prototipo: | _void ft_putstr_fd(char *s, int fd);_ |
 | Ficheros a entregar: | ft_putstr_fd.c |
-| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Archivo o formato de salida donde se va a escribir. |
-| Valor de retorno: |  Si tiene éxito, se devuelve un valor no negativo.  En caso de error, la función devuelve EOF. |
-| Descripción: |  Escribe una cadena de caracteres en un archivo. |
+| Parametros: | 1. La cadena de caracteres que hay que escribir. <br /> 2. El descriptor de fichero sobre el que hay que escribir. |
+| Valor de retorno: | None |
+| Funciones externas autorizadas: | write |
+| Descripción: | Escribe la cadena de caracteres ’s’ sobre el descriptor de fichero proporcionado. |
 
 | Nombre de la función: | ft_putendl_fd |
 | --------------------- | --------- |
 | Prototipo: | _void ft_putendl_fd(char *s, int fd);_ |
 | Ficheros a entregar: | ft_putendl_fd.c |
-| Parametros: |  1. Puntero a una cadena de caracteres. <br /> 2. Archivo o formato de salida donde se va a escribir. |
-| Valor de retorno: | Devuelve un valor no negativo si tiene exito, En caso de error decuelve EOF.  |
-| Descripción: |  Escribe una cadena de caracteres en un archivo, seguido por un salto de linea. |
+| Parametros: | 1. La cadena de caracteres que hay que escribir. <br /> 2. El descriptor de fichero sobre el que hay que escribir. |
+| Valor de retorno: | None  |
+| Funciones externas autorizadas: | write |
+| Descripción: | Escribe la cadena de caracteres ’s’ sobre el descriptor de fichero proporcionado, seguida de un salto de línea. |
 
 | Nombre de la función: | ft_putnbr_fd |                              
 | --------------------- | --------- |
 | Prototipo: | _void ft_putnbr_fd(int nb, int fd);_  |
-| Ficheros a entregar: | ft_putnbr_fd.c |                               
-| Parametros: | 1. Valor entero que se va a escribir. <br /> 2. Archivo o formato de salida donde se va a escribir.  |
-| Valor de retorno: |  Devuelve un valor no negativo si tiene exito y EOF si ocurre un error. |                                             
-| Descripción: |  Escribe un número entero en un archivo. |
+| Ficheros a entregar: | ft_putnbr_fd.c |                             
+| Parametros: | 1. El entero que hay que escribir. <br /> )2. El file descriptor sobre el que hay que escribir. |
+| Valor de retorno: | None |    
+| Funciones externas autorizadas: | write |
+| Descripción: |  Escribe el entero ’n’ sobre el descriptor de
+fichero proporcionado. |
+
+</details>
+
+## Parte extra
+
+<details>
+<summary> Bonus </summary>
 
 </details>

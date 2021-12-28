@@ -284,7 +284,7 @@
 | Nombre de la función: | ft_putendl_fd |
 | --------------------- | --------- |
 | Prototipo: | _void ft_putendl_fd(char *s, int fd);_ |
-| Ficheros a entregar: | ft_putendl_fd |
+| Ficheros a entregar: | ft_putendl_fd.c |
 | Parametros: |  1. Puntero a una cadena de caracteres. <br /> 2. Archivo o formato de salida donde se va a escribir. |
 | Valor de retorno: | Devuelve un valor no negativo si tiene exito, En caso de error decuelve EOF.  |
 | Descripción: |  Escribe una cadena de caracteres en un archivo, seguido por un salto de linea. |
@@ -292,7 +292,7 @@
 | Nombre de la función: | ft_putnbr_fd |                              
 | --------------------- | --------- |
 | Prototipo: | _void ft_putnbr_fd(int nb, int fd);_  |
-| Ficheros a entregar: | ft_putnbr_fd |                               
+| Ficheros a entregar: | ft_putnbr_fd.c |                               
 | Parametros: | 1. Valor entero que se va a escribir. <br /> 2. Archivo o formato de salida donde se va a escribir.  |
 | Valor de retorno: |  Devuelve un valor no negativo si tiene exito y EOF si ocurre un error. |                                             
 | Descripción: |  Escribe un número entero en un archivo. |

@@ -312,8 +312,17 @@
 | Prototipo: | _t_list *ft_lstnew(void *content);_ |
 | Ficheros a entregar: | ft_lstnew.c |
 | Parámetros: |  1. El contenido del nuevo elemento. |
-| Valor de retorno: El elemento nuevo |
+| Valor de retorno: | El elemento nuevo |
 | Funciones externas autorizadas: | malloc |
 | Descripción: | Reserva memoria (con malloc(3)) y devuelve un nuevo elemento. La variable ’content’ se inicializa mediante el valor del parámetro ’content’. La variable ’next’ se inicializa con NULL. |
+
+| Nombre de la función: | ft_lstadd_front |
+| --------------------- | --------------- |
+| Prototipo: | void ft_lstadd_front(t_list **alst, t_list *new);
+| Ficheros a entregar: | ft_lstadd_front.c  |
+| Parámetros: |  1. La dirección del puntero al primer elemento de la lista. <br /> 2. La dirección del puntero al elemento que hay que añadir a la lista. |
+| Valor de retorno: | None |
+| Funciones externas autorizadas: | None |
+| Descripción: | Añade el elemento ’new’ al principio de la lista. |
 
 </details>

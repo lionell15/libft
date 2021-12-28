@@ -307,4 +307,13 @@
 <details>
 <summary> Bonus </summary>
 
+| Nombre de la función: | ft_lstnew |
+| --------------------- | --------- |
+| Prototipo: | _t_list *ft_lstnew(void *content);_ |
+| Ficheros a entregar: | ft_lstnew.c |
+| Parámetros: |  1. El contenido del nuevo elemento. |
+| Valor de retorno: El elemento nuevo |
+| Funciones externas autorizadas: | malloc |
+| Descripción: | Reserva memoria (con malloc(3)) y devuelve un nuevo elemento. La variable ’content’ se inicializa mediante el valor del parámetro ’content’. La variable ’next’ se inicializa con NULL. |
+
 </details>

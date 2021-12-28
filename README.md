@@ -249,7 +249,7 @@
 
 | Nombre de la función: | ft_strmapi |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _char *ft_strmapi(char const *s, char (*f)(unsigned int, char);_ |
 | Ficheros a entregar: | ft_strmapi.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -258,7 +258,7 @@
 
 | Nombre de la función: | ft_putchar_fd |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _void ft_putchar_fd(char c, int fd);_ |
 | Ficheros a entregar: | ft_putchar_fd.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -267,7 +267,7 @@
 
 | Nombre de la función: | ft_putstr_fd |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _void ft_putstr_fd(char *s, int fd);_ |
 | Ficheros a entregar: | ft_putstr_fd.c |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -276,7 +276,7 @@
 
 | Nombre de la función: | ft_putendl_fd |
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _void ft_putendl_fd(char *s, int fd);_ |
 | Ficheros a entregar: | ft_putendl_fd |
 | Parametros: |   |
 | Valor de retorno: |   |
@@ -285,7 +285,7 @@
 
 | Nombre de la función: | ft_putnbr_fd |                              
 | --------------------- | --------- |
-| Prototipo: |  |
+| Prototipo: | _void ft_putnbr_fd(int nb, int fd);_  |
 | Ficheros a entregar: | ft_putnbr_fd |                               
 | Parametros: |   |                                                   
 | Valor de retorno: |   |                                             

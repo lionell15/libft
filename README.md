@@ -269,10 +269,9 @@
 | --------------------- | --------- |
 | Prototipo: | _void ft_putstr_fd(char *s, int fd);_ |
 | Ficheros a entregar: | ft_putstr_fd.c |
-| Parametros: |   |
-| Valor de retorno: |   |
-| Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Archivo o formato de salida donde se va a escribir. |
+| Valor de retorno: |  Si tiene éxito, se devuelve un valor no negativo.  En caso de error, la función devuelve EOF. |
+| Descripción: |  Escribe una cadena de caracteres en un archivo. |
 
 | Nombre de la función: | ft_putendl_fd |
 | --------------------- | --------- |

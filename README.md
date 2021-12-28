@@ -234,10 +234,10 @@
 | --------------------- | --------- |
 | Prototipo: |  _char **ft_split(char const *s, char c);_ |
 | Ficheros a entregar: | ft_split.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: |  1. puntero a una cadena de caracteres. <br /> 2. Caracter por el cual se van a separar las palabras en (s)  |
+| Valor de retorno: |  Devuelve un puntero a la lista de palabras en la cadena de entrada. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: | Separa o divide una cadena de caracteres (s) por el caracter (c) y retorna una lista de estas. |
 
 | Nombre de la función: | ft_itoa |
 | --------------------- | --------- |

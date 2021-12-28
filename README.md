@@ -215,8 +215,7 @@
 | Prototipo: | _char *ft_substr(char const *s, unsigned int start, size_t len);_ |
 | Ficheros a entregar: | ft_substr.c |
 | Parametros: | 1. La cadena de la que se extrae la nueva cadena <br /> 2. El índice del principio de la nueva cadena <br /> 3. El tamaño máximo de la nueva cadena. |
-| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la
-reserva de memoria. |
+| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
 | Descripción: | Reserva memoria (con malloc(3)) y devuelve la cadena de caracteres que proviene de la cadena pasada como argumento. Esta nueva cadena comienza en el índice ’start’ y tiene como tamaño máximo ’len’ |
 

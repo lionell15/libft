@@ -1,4 +1,12 @@
 # **Libft**
+
+# Consideraciones técnicas
+
+• Está prohibido utilizar variables globales.
+• Si necesita funciones auxiliares para escribir una función compleja, tendrá que definir esas funciones auxiliares en static, respetando la Norma.
+• Suba todos los archivos a la raíz del repositorio.
+• Use el comando ar para crear su librería, está prohibido usar el comando libtool.
+
 ## Parte 1
 
 <details>
@@ -6,7 +14,7 @@
 
 
 
-| Nombre de l función: | memset |
+| Nombre de la función: | memset |
 | ------------- | ------------- |
 | Prototipo: | _void *ft_memset(void *b, int c, size_t len);_ |
 | Ficheros a entregar: | ft_memset.c |
@@ -44,7 +52,7 @@
 | Prototipo: |  _void *ft_memmove(void *dst, const void *src, size_t len);_ |
 | Ficheros a entregar: | ft_memmove.c |
 | Parametros: | 1. Puntero a una cadena de destino.<br /> 2. Puntero a una cadena de origen. <br /> 3. Numero de bytes que se copiarán.<br /> |
-| Valor de retorno: | Devuelve un puntero a la cadena dst  |
+| Valor de retorno: | Devuelve un puntero a la cadena dst.  |
 | Descripción: | Copia los primeros n caracteres del objeto apuntado por src al objeto apuntado por dst. Sin embargo, se asegura de que no estén superpuestos. |
 
 | Nombre de la función: | memchr |
@@ -91,7 +99,7 @@
 | -------------------- | -------- |
 | Prototipo: | _char *ft_strchr(const char *s, int c);_|
 | Ficheros a entregar: | ft_strchr.c|
-| Parametros: | 1. Puntero a una cadena de caracteres <br /> 2. Caracter que se va a buscar.   |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Caracter que se va a buscar.   |
 | Valor de retorno: | Devuelve la posición en la cadena (s) la primera ocurrencia del carácter c.Si no se encuentra devuelve un punyero nulo. |
 | Descripción: |  Buscar la primera ocurrencia de (c) en la cadena (s) y devuelve su posición.|
 
@@ -99,7 +107,7 @@
 | -------------------- | -------- |
 | Prototipo: | _char *ft_strrchr(const char *s, int c);_ |
 | Ficheros a entregar: | ft_strrchr.c |
-| Parametros: | 1. Puntero a una cadena de caracteres <br /> 2. Caracter que se va a buscar. |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Caracter que se va a buscar. |
 | Valor de retorno: | Devuelve la posición en la cafena (s) la ultima ocutrencia de (c). Si no se encuentra el valor, la función devuelve un puntero nulo. |
 | Descripción: | Busca la ultima ocurrencia de (c) en la cadena (s) y devuelve su posición. |
 

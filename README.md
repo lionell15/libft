@@ -215,10 +215,11 @@
 | --------------------- | --------- |
 | Prototipo: |  _char *ft_strjoin(char const *s1, char const *s2);_|
 | Ficheros a entregar: | ft_strjoin.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Caracter que se usará para separar la lista. |
+| Valor de retorno: |  devuelve una cadena con asignación dinámica memoria. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: |  La función strjoin () combina todas las cadenas en el lista de argumentos, y pone el resultado en la lista devuelta cadena con memoria asignada dinámicamente. El retorno La cadena está separada por el delimitador especificado por el primer separador de argumento. La memoria asignada dinámicamente necesita ser liberado por el usuario.
+ |
 
 | Nombre de la función: | ft_strtrim |
 | --------------------- | --------- |

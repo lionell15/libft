@@ -1,6 +1,7 @@
 # **Libft**
 ## Parte 1
-### Funciones de la libc
+<details>
+<summary> Funciones de la libc </summary>
 
 
 | Nombre de l función: | memset |
@@ -198,6 +199,7 @@
 | Funciones externas autorizadas: | malloc |
 | Descripción: | La  función  strdup()  devuelve  un  puntero  a  una  nueva cadena de caracteres que es un duplicado de la cadena apuntada por s.   La  memoria  para  la  nueva  cadena  se  obtiene automáticamente con malloc(3), y puede (y debe) liberarse con free(3). |
 
+</details>
 ## Parte 2
 
 ### Funciones adicionales

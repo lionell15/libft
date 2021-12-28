@@ -325,7 +325,8 @@
 | Descripción: | Añade el elemento ’new’ al principio de la lista. |
 
 | Nombre de la función: | ft_lstsize |
-| Prototipo: | _int ft_lstsize(t_list *lst);_ |
+| --------------------- | ---------- |
+|Prototipo: | _int ft_lstsize(t_list *lst);_ | 
 | Ficheros a entregar: | ft_lstsize.c |
 | Parámetros: | 1. Principio de la lista. |
 | Valor de retorno: | Tamaño de la lista. |
@@ -333,6 +334,7 @@
 | Descripción: | Cuenta el número de elementos de la lista. |
 
 | Nombre de la función: | ft_lstlast |
+| --------------------- | --------------- |
 | Prototipo: | _t_list *ft_lstlast(t_list *lst);_ |
 | Ficheros a entregar: | ft_lstlast.c |
 | Parámetros: | 1. Principio de la lista. |
@@ -340,6 +342,7 @@
 | Descripción: | Devuelve el último elemento de la lista. |
 
 | Nombre de la función: | ft_lstadd_back |
+| --------------------- | --------------- |
 | Prototipo: |  _void ft_lstadd_back(t_list **lst, t_list *new);_ |
 | Ficheros a entregar: | ft_lstadd_back.c |
 | Parámetros: | 1. La dirección del puntero al primer elemento de la lista. <br /> 2. La dirección del puntero al elemento que hay que añadir a la lista. |
@@ -347,6 +350,7 @@
 | Descripción: | Añade el elemento ’new’ al final de la lista. |
 
 | Nombre de la función | ft_lstdelone |
+| --------------------- | --------------- |
 | Prototipo: | _void ft_lstdelone(t_list *lst, void (*del)(void*));_ |
 | Ficheros a entregar: | ft_lstdelone.c |
 | Parámetros: | 1. El elemento cuya memoria se debe liberar. <br /> 2. La dirección de una función utilizada para borrar el contenido del elemento. |

@@ -261,10 +261,10 @@
 | --------------------- | --------- |
 | Prototipo: | _void ft_putchar_fd(char c, int fd);_ |
 | Ficheros a entregar: | ft_putchar_fd.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: | 1. Caracter a escribir. <br /> 2. archivo o formato de salida. |
+| Valor de retorno: | devuelve el carácter escrito como una conversión de unsigned char a un int o EOF en caso de error.  |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: |  Escribe un caracter dentro de un archivo. |
 
 | Nombre de la función: | ft_putstr_fd |
 | --------------------- | --------- |

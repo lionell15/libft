@@ -322,7 +322,6 @@
 | Ficheros a entregar: | ft_lstadd_front.c  |
 | Parámetros: |  1. La dirección del puntero al primer elemento de la lista. <br /> 2. La dirección del puntero al elemento que hay que añadir a la lista. |
 | Valor de retorno: | None |
-| Funciones externas autorizadas: | None |
 | Descripción: | Añade el elemento ’new’ al principio de la lista. |
 
 </details>

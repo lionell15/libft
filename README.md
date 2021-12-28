@@ -225,7 +225,7 @@
 | --------------------- | --------- |
 | Prototipo: | _char ft_strtrim(char const *s1, char const *set);_|
 | Ficheros a entregar: | ft_strtrim.c |
-| Parametros: | 1. Puntero a una cadena de caracteres. 2. Caracter que será reemplazado.  |
+| Parametros: | 1. Puntero a una cadena de caracteres.<br /> 2. Caracter que será reemplazado.  |
 | Valor de retorno: | Puntero a la cadena s1 modificada. |
 | Funciones externas autorizadas: | malloc |
 | Descripción: | Elimina todos caracteres (set) del principio y el final de una cadena. |

@@ -2,10 +2,11 @@
 
 # Consideraciones técnicas
 
-• Está prohibido utilizar variables globales.
-• Si necesita funciones auxiliares para escribir una función compleja, tendrá que definir esas funciones auxiliares en static, respetando la Norma.
-• Suba todos los archivos a la raíz del repositorio.
+• Está prohibido utilizar variables globales. <br />
+• Si necesita funciones auxiliares para escribir una función compleja, tendrá que definir esas funciones auxiliares en static, respetando la Norma. <br />
+• Suba todos los archivos a la raíz del repositorio. <br />
 • Use el comando ar para crear su librería, está prohibido usar el comando libtool.
+
 
 ## Parte 1
 

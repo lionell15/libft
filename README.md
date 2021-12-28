@@ -206,10 +206,10 @@
 | --------------------- | --------- |
 | Prototipo: | _char *ft_substr(char const *s, unsigned int start, size_t len);_ |
 | Ficheros a entregar: | ft_substr.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Posición donde empieza el substring. <br /> 3. Longitud del substring. |
+| Valor de retorno: | Devuelve un puntero a una substring creada a partir de la posición start con una longitud len.   |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: |  Devuelve una subcadena especificada de una cadena. |
 
 | Nombre de la función: | ft_srtjoin |
 | --------------------- | --------- |

@@ -243,10 +243,10 @@
 | --------------------- | --------- |
 | Prototipo: | _char *ft_itoa(int n);_ |
 | Ficheros a entregar: | ft_itoa.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: | 1. Puntero a la cadena que se desea convertir.  |
+| Valor de retorno: |  devuelve un numero entero convertido en cadena de caracteres si ha sido posible la conversión sino devuelve nulo. |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: |  Convierte un numero entero a una cadena de caracteres. |
 
 | Nombre de la función: | ft_strmapi |
 | --------------------- | --------- |

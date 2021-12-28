@@ -252,10 +252,10 @@
 | --------------------- | --------- |
 | Prototipo: | _char *ft_strmapi(char const *s, char (*f)(unsigned int, char);_ |
 | Ficheros a entregar: | ft_strmapi.c |
-| Parametros: |   |
-| Valor de retorno: |   |
+| Parametros: | 1. Puntero a una cadena de caracteres. <br /> 2. Función que se va aplicar a cadabuno de los valores en la cadena (s).  |
+| Valor de retorno: |  Devuelve un puntero a una cadena con los valores pasados por la funcion (f). |
 | Funciones externas autorizadas: | malloc |
-| Descripción: |   |
+| Descripción: |  Crea una nueva cadena a partir de la modificación de la cadena con la función especificada. |
 
 | Nombre de la función: | ft_putchar_fd |
 | --------------------- | --------- |

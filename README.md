@@ -1,7 +1,9 @@
 # **Libft**
 ## Parte 1
+
 <details>
 <summary> Funciones de la libc </summary>
+
 
 
 | Nombre de l función: | memset |
@@ -205,6 +207,8 @@
 
 <details>
 <summary> Funciones adicionales </summary>
+
+
 
 | Nombre de la función: | ft_substr |
 | --------------------- | --------- |

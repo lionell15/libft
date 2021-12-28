@@ -224,8 +224,7 @@
 | Prototipo: |  _char *ft_strjoin(char const *s1, char const *s2);_|
 | Ficheros a entregar: | ft_strjoin.c |
 | Parametros: | 1. La cadena de caracteres prefijo. <br /> 2. La cadena de caracteres sufijo. |
-| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la
-reserva de memoria. |
+| Valor de retorno: | La nueva cadena de caracteres. NULL si falla la reserva de memoria. |
 | Funciones externas autorizadas: | malloc |
 | Descripción: | Reserva memoria (con malloc(3)) y devuelve la nueva cadena de caracteres que resulta de la concatenación de ’s1’ y ’s2’. |
 
@@ -272,8 +271,7 @@ reserva de memoria. |
 | Parametros: | 1. El carácter que hay que escribir. <br /> 2. El descriptor de fichero sobre el que hay que escribir. |
 | Valor de retorno: | None |
 | Funciones externas autorizadas: | write |
-| Descripción: |  Escribe el carácter ’c’ sobre el descriptor de
-fichero proporcionado. |
+| Descripción: |  Escribe el carácter ’c’ sobre el descriptor de fichero proporcionado. |
 
 | Nombre de la función: | ft_putstr_fd |
 | --------------------- | --------- |
@@ -300,8 +298,7 @@ fichero proporcionado. |
 | Parametros: | 1. El entero que hay que escribir. <br /> )2. El file descriptor sobre el que hay que escribir. |
 | Valor de retorno: | None |    
 | Funciones externas autorizadas: | write |
-| Descripción: |  Escribe el entero ’n’ sobre el descriptor de
-fichero proporcionado. |
+| Descripción: |  Escribe el entero ’n’ sobre el descriptor de fichero proporcionado. |
 
 </details>
 

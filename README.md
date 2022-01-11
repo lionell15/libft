@@ -368,3 +368,16 @@
 | Descripción: | Libera la memoria del elemento pasado como argumento utilizando la función ’del’ y después free(3). No se debe liberar la memoria de ’next’. |
 
 </details>
+
+<details>
+<summary> Uso </summary>
+
+Para usar la libreria libft necesitamos:
+
+1. Incluir en el main #include "libft.h"
+
+2. Compilar la libreria con "make"
+
+3. Compilar el programa de salida con "make program"
+
+</details>

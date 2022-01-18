@@ -228,7 +228,7 @@
 | Funciones externas autorizadas: | malloc |
 | Descripción: | Reserva memoria (con malloc(3)) y devuelve la cadena de caracteres que proviene de la cadena pasada como argumento. Esta nueva cadena comienza en el índice ’start’ y tiene como tamaño máximo ’len’. |
 
-| Nombre de la función: | ft_srtjoin |
+| Nombre de la función: | ft_strjoin |
 | --------------------- | --------- |
 | Prototipo: |  _char *ft_strjoin(char const *s1, char const *s2);_|
 | Ficheros a entregar: | ft_strjoin.c |

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lionell15 <lionell15@gmail.com>            +#+  +:+       +#+        */
+/*   By: lespinoz <lespinoz@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/14 19:05:09 by lionell15         #+#    #+#             */
-/*   Updated: 2021/12/14 19:05:12 by lionell15        ###   ########.fr       */
+/*   Created: 2022/01/15 13:26:36 by lespinoz          #+#    #+#             */
+/*   Updated: 2022/01/15 15:36:25 by lespinoz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,16 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int			index;
-	const char	*ini;
+	int	i;
 
-	ini = s;
-	index = ft_strlen(s);
-	s = (s + index);
-	while (*s != *ini && c != *s)
-		s--;
-	if (c == *s)
-		return ((char *)s);
+	i = ft_strlen(s);
+	while (i >= 0)
+	{
+		if (c % 256 >= 1)
+			c -= (256 * (c / 256));
+		if (s[i] == c)
+			return ((char *)&s[i]);
+		i--;
+	}
 	return (0);
 }

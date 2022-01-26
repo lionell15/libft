@@ -20,7 +20,6 @@ SRCS	=	ft_atoi.c \
 			ft_strncmp.c \
 			ft_memcmp.c \
 			ft_strnstr.c \
-			ft_memccpy.c \
 			ft_calloc.c \
 			ft_strdup.c \
 			ft_substr.c \
@@ -70,6 +69,4 @@ clean:
 
 re: fclean all
 
-rebonus: fclean bonus
-
-.PHONY: all clean fclean program re .c.o bonus rebonus
+.PHONY: all clean fclean re .c.o bonus
